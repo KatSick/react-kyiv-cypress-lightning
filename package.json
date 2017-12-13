@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel serve index.html"
+    "start": "parcel serve index.html",
+    "build": "parcel build --public-url ./ index.html",
+    "deploy": "surge ./dist -d react-kyiv-cypress.surge.sh"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,10 @@
   },
   "homepage": "https://github.com/KatSick/react-kyiv-cypress-lightning#readme",
   "dependencies": {
-    "parcel-bundler": "^1.2.0",
     "reveal.js": "^3.6.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.2.0",
+    "surge": "^0.19.0"
   }
 }
