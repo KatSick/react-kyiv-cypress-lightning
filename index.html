@@ -1,0 +1,178 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>Painless E2E</h2>
+        <h3>with Cypress</h3>
+      </section>
+      <section>
+        <h2>Hello!</h2>
+        <h3>My name is Ostap</h3>
+      </section>
+      <section>
+        <section>
+          <h2>Let's talk about testing</h2>
+        </section>
+        <section>
+          <h2>Why i'm think i have competence ?</h2>
+          <section id="fragments" style="margin-top: 100px;">
+            <ul>
+              <li class="fragment">start career as QA</li>
+              <li class="fragment">grow up to QA automation</li>
+              <li class="fragment">write my own "test framework"</li>
+              <li class="fragment">a lot of time debug my own "test framework"</li>
+              <li class="fragment">know why selenium
+                <strong>sucks</strong>
+              </li>
+              <li class="fragment">...</li>
+              <li class="fragment">my wife is an QA automation </li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>What is E2E testing?</h2>
+          <section id="fragments" style="margin-top: 100px;">
+            <ul>
+              <li class="fragment">AngularJS bazzword</li>
+              <li class="fragment">Can be understanded as acceptance testing</li>
+              <li class="fragment">Writing acceptance is too long...</li>
+              <li class="fragment">E2E naming is blessed to be hyped</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>OK.. what is acceptance testing?</h2>
+          <section id="fragments" style="margin-top: 100px;">
+            <ul>
+              <li class="fragment">No isolation</li>
+              <li class="fragment">No mocking</li>
+              <li class="fragment">Test on production build</li>
+              <li class="fragment">In web world: Open browser and click on elements</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Wait but, my E2E lib is...</h2>
+          <section id="fragments" style="margin-top: 100px;">
+            <ul>
+              <li class="fragment">Nightwatch</li>
+              <li class="fragment">Protractor</li>
+              <li class="fragment">webdriver.io</li>
+              <li class="fragment">TestCafé</li>
+              <li class="fragment">Nemo</li>
+              <li class="fragment">selenium-webdriver</li>
+              <li class="fragment">...</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h2>... is suck?</h2>
+      </section>
+      <section>
+        <h2>Because of — SELENIUM</h2>
+        <img src="./assets/selenium-logo.png"></img>
+      </section>
+      <section>
+        <section>
+          <h2>What word "selenium" means for you</h2>
+          <section id="fragments" style="margin-top: 100px;">
+            <ul>
+              <li class="fragment">That debugging is a hell</li>
+              <li class="fragment">That you definetly needs drivers for browsers</li>
+              <li class="fragment">That you need to keep driver version updated</li>
+              <li class="fragment">That you need some bindings to use selenium</li>
+              <li class="fragment">That it is unstable</li>
+              <li class="fragment">That it is hard to setup on Windows</li>
+              <li class="fragment">That startup/testing time is huge</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Why Cypress</h2>
+          <small>(at least for me)</small>
+          <section id="fragments" style="margin-top: 100px;">
+            <ul>
+              <li class="fragment">Javascript framework</li>
+              <li class="fragment">No Selenium at all</li>
+              <li class="fragment">Runs with your application loop</li>
+              <li class="fragment">Debugging is a first class citizen</li>
+              <li class="fragment">Built-in tons of features</li>
+              <li class="fragment">No configuration required</li>
+              <li class="fragment">Is for devs and QAs</li>
+              <li class="fragment">Fast</li>
+              <li class="fragment">Have great documentation</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Why it is
+            <strong>painless?</strong>
+          </h2>
+          <section id="fragments">
+            <p>Because you are not thinking of:</p>
+            <ul>
+              <li class="fragment">Setuping dev environment</li>
+              <li class="fragment">Deciding on test runner (karma, mocha, jasmine, qunit) </li>
+              <li class="fragment">Deciding on assertion library (chai, expect) </li>
+              <li class="fragment">Deciding on mocking (sinon, testdouble)</li>
+              <li class="fragment">Structuring your tests</li>
+              <li class="fragment">Waiting for elements on the page</li>
+              <li class="fragment">Running stuff on Continious Integraion or pre commit</li>
+              <li class="fragment">Doing browser stuff</li>
+              <li class="fragment">Fighting with asyncronous nature of E2E</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h3>Just
+            <br />
+            <br />
+            <code>npm i -g cypress</code>
+          </h3>
+          <section id="fragments">
+            <br />
+            <br />
+            <h3 class="fragment">And start hacking!</h3>
+          </section>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>You may know</h2>
+          <quote>That the first selling feature of Redux was</quote>
+          <br />
+          <h4>time travel?</h4>
+        </section>
+        <section>
+          <h2>Presenting you — time travel</h2>
+          <iframe src='//gifs.com/embed/cypress-time-travel-6R0NgO' frameborder='0' scrolling='no' width="100%" height="100%"></iframe>
+        </section>
+        <section>
+          <h2>Why time travel matters on writing tests ?</h2>
+          <small>(Probably you never wrote a test)</small>
+        </section>
+      </section>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

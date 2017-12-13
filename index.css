@@ -1,0 +1,10 @@
+.reveal section img {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+.reveal .striker-logo {
+  position: absolute;
+  bottom: 0;
+}
