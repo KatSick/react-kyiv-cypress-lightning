@@ -8,7 +8,8 @@
     <div class="slides">
       <section>
         <h2>Painless E2E testing</h2>
-        <h3>with Cypress</h3>
+        <h3>with </h3>
+        <img src="assets/cypress-logo.png" class="cypress-logo" />
       </section>
       <section>
         <h2>Hello!</h2>
@@ -55,8 +56,8 @@
             <ul>
               <li class="fragment">No isolation</li>
               <li class="fragment">No mocking</li>
-              <li class="fragment">Test on production build</li>
-              <li class="fragment">In web world: Open browser and click on elements</li>
+              <li class="fragment">Test real system</li>
+              <li class="fragment">Means: Open browser and click on elements</li>
             </ul>
           </section>
         </section>
@@ -77,7 +78,7 @@
           </section>
         </section>
       </section>
-      <section>
+      <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
         <h2>... is suck?</h2>
       </section>
       <section>
@@ -85,7 +86,6 @@
         <img src="./assets/selenium-logo.png"></img>
         <br />
         <br />
-        <br /> // TODO: funny gif here
       </section>
       <section>
         <section>
@@ -105,7 +105,7 @@
       </section>
       <section>
         <section>
-          <h2>Why Cypress //TODO: image about docs</h2>
+          <h2>Why Cypress</h2>
           <small>(at least for me)</small>
           <section id="fragments">
             <ul>
@@ -135,7 +135,6 @@
               <li class="fragment">Structuring your tests</li>
               <li class="fragment">Waiting for elements on the page</li>
               <li class="fragment">Running stuff on Continious Integraion or pre commit</li>
-              <li class="fragment">Doing browser stuff</li>
             </ul>
           </section>
         </section>
@@ -158,28 +157,64 @@
       </section>
       <section>
         <section>
-          <h3>Just Type</h3>
+          <h2>Cypress have all stuff needed out of the box</h2>
+        </section>
+        <section>
+          <h2>Environment variables</h2>
+          <img src="assets/cypress-env.png" />
+        </section>
+        <section>
+          <h2>Custom commands</h2>
+          <img src="assets/cypress-commands.png" />
+        </section>
+        <section>
+          <h2>API testing</h2>
+          <img src="assets/cypress-api.png" />
+          <small>* CORS is bypassed</small>
+        </section>
+        <section>
+          <h2>Server mocks</h2>
+          <img src="assets/cypress-server-mocks.png" />
+        </section>
+        <section>
+          <h2>Generated project structure</h2>
+          <img src="assets/cypress-project-struct.png" />
+        </section>
+        <section>
+          <h2>Easy explicit wait</h2>
+          <img src="assets/cypress-explicit-wait.png" />
+        </section>
+        <section>
+          <h2>And a lot more</h2>
+          <ul>
+            <li>.debug() keyword</li>
+            <li>Screenshots & videos</li>
+            <li>Dashboard service with recorded tests
+              <small>(paid)</small>
+            </li>
+            <li>Moment, lodash, jquery, minimatch prebundled</li>
+            <li>Webpack, typescript, broserify plugins </li>
+            <li>jUnit reporting</li>
+            <li>And a lot, a lot more</li>
+          </ul>
+        </section>
+      </section>
+      </section>
+      <section>
+        <section>
+          <h3>Just Type in your terminal</h3>
           <section id="fragments">
-            <br />
-            <code class="fragment">npm i -D cypress</code>
-            <br />
-            <br />
-            <span class="fragment">then</span>
-            <br />
-            <br />
-            <code class="fragment">npx cypress open</code>
-            <br />
-            <br />
-            <br />
+            <img class="fragment" src="assets/cypress-install.png" />
             <div class="fragment">
               <h3>And happy hacking!</h3>
-              <small>(requires NodeJS 8 or higher)</small>
+              <small>(`npx` requires NodeJS 9 or higher)</small>
             </div>
           </section>
         </section>
       </section>
     </div>
   </div>
+  <img src="assets/logo.png" class="striker-logo" />
   <script src="index.js"></script>
 </body>
 

@@ -60,3 +60,6 @@ typings/
 # Parcel bundler
 .cache
 dist
+
+# macOS
+.DS_Store
